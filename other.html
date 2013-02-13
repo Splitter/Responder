@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		
+		<title></title>
+
+   		<!-- Reset Stylesheet -->
+		<link rel="stylesheet" media="all" href="assets/css/reset.css"/>
+   		<!-- Base Grid Stylesheet -->
+		<link rel="stylesheet" media="all" href="assets/css/grid.css"/>
+   		<!-- Base Typography Stylesheet -->
+		<link rel="stylesheet" media="all" href="assets/css/typography.css"/>
+   		<!-- Theme Stylesheet -->
+		<link rel="stylesheet" media="all" href="assets/css/style.css"/>
+
+        
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+	
+		<!-- jQuery library & third party jQuery plugins -->
+   		<script src="assets/scripts/jQuery1.6.4-and-plugins.js"></script>
+   		<!-- sv designed plugins and scripts -->
+   		<script src="assets/scripts/sv.plugins.js"></script>
+   		<!-- theme specific code -->
+   		<script src="assets/scripts/theme.app.js"></script>
+		
+	</head>
+	
+	<body lang="en">
+		<div class="wrapper">
+	
+	
+	<!-- Header Section
+    ================================================== -->
+		<div class="container clearfix" id="header">
+
+			<!-- Logo / Headline -->
+			<h1 id="logowrap">
+				<a href="index.html">
+				  Responder!
+				</a>    
+			</h1>
+			<!-- // Logo / Headline -->
+			
+			<!-- Main Navigation -->
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="">Pages</a>							
+					<ul>
+						<li><a href="grid.html">Layout/Grid</a></li>
+						<li><a href="typography.html">Typography Examples</a></li>
+						<li><a href="other.html">Other Elements</a></li>
+						<li><a href="blocks.html">Content Blocks/Widgets</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<!-- // Main Navigation -->
+	
+		</div>
+	<!-- // Header Section
+    ================================================== -->
+	
+	
+	<!-- Example Page Heading -->
+		<div class="container clearfix">
+			<h1>Other Elements and Styles <small>various other styles</small></h1>
+		</div>
+	<!-- // Example Page Heading -->
+
+
+	<hr class="container"/><!-- Basic horizontal rule -->
+
+	
+	<!-- Table Examples
+    ================================================== -->	
+		<div class="container clearfix">
+			<br/>
+			<h2>Tables</h2>
+			<p>
+				Tables are designed to be an effective visual representations of tabular data.
+			</p>
+			<div class="half">
+
+				<!-- Table 1 -->
+				<table>
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Column One</th>
+							<th>Second Here</th>
+							<th>And Third</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+
+							<td>Data 1</td>
+							<td>Data 2-2</td>
+							<td>Data 3-3</td>
+						</tr>
+						<tr>
+							<td>2</td>
+
+							<td>Data 1</td>
+							<td>Data 2-2</td>
+							<td>Data 3-3</td>
+						</tr>
+						<tr>
+							<td>3</td>
+
+							<td>Data 1</td>
+							<td>Data 2-2</td>
+							<td>Data 3-3</td>
+						</tr>
+					</tbody>
+			    </table>
+				<!-- // Table 1 -->
+
+			</div>
+			<div class="half last">
+
+				<!-- Table 2 -->
+				<table>
+					<thead>
+						<tr>
+							<th class="thhide"></th><!-- Empty TH (hide it) -->
+							<th>Column One</th>
+							<th>Second Here</th>
+							<th>And Third</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="head">1</td>
+
+							<td>Data 1</td>
+							<td>Data 2-2</td>
+							<td>Data 3-3</td>
+						</tr>
+						<tr>
+							<td class="head">2</td>
+
+							<td>Data 1</td>
+							<td>Data 2-2</td>
+							<td>Data 3-3</td>
+						</tr>
+						<tr>
+							<td class="head">3</td>
+
+							<td>Data 1</td>
+							<td>Data 2-2</td>
+							<td>Data 3-3</td>
+						</tr>
+					</tbody>
+			    </table>
+				<!-- // Table 2 -->
+
+			</div>
+		</div>
+	<!-- // Table Examples
+    ================================================== -->	
+
+
+
+	<!-- Notification Box Examples
+    ================================================== -->	
+		<div class="container clearfix">
+		
+			<br/>
+			<h2>Notification Boxes</h2>
+			<p>
+				Notifications boxes are common place in most designs these days, they are
+				a simple solution to presenting important information to your users.
+			</p>
+
+			<!-- Information Box -->
+			<div class="infobox">Important information a user must read.</div>
+			
+			<!-- Success Box -->
+			<div class="successbox">A task has been successfully completed.</div>
+			
+			<!-- Warning Box -->
+			<div class="warningbox">A warning users should yeild to.</div>
+			
+			<!-- Error Box -->
+			<div class="errorbox">Uh Oh. Something went terribly wrong.</div>
+
+		</div>
+	<!-- // Notification Box Examples
+    ================================================== -->	
+
+
+
+	<!-- Form Examples
+    ================================================== -->	
+		<div class="container clearfix">
+		
+			<br/>
+			<h2>Form Elements</h2>
+			<p>
+				Forms are page elements containing controls designed to gather input/information from the user.
+			</p>
+
+			<!-- Form Start -->
+            <form action="" method="post" enctype="application/x-www-form-urlencoded">             	
+				
+				<!-- Text Input Examples -->
+                <fieldset>  
+                
+                    <legend>First Fieldset</legend>  
+                    <p>
+                    	 Fieldset containing the themes styled text input fields. The Long input becomes the same size as medium inputs on small resoltion screens(i.e. small mobile layouts).
+                    </p>
+					
+                    <!-- Long Input -->
+                    <label for="long_input">Long Input:</label>
+                    <input type="text" class="text_long" id="long_input" name="long_input" />  
+                    
+                    <!-- Medium Input -->
+                    <label for="med_input">Medium Input:</label>
+                    <input type="text" class="text_medium" id="med_input" name="med_input" />  
+                   
+                    <!-- Short Input -->
+                    <label for="short_input">Short Input:</label>
+                    <input type="text" class="text_short" id="short_input" name="short_input" />  
+					
+                   	<!-- Disabled Input -->
+                   	<label for="disabled_input">Disabled Input:</label>
+                   	<input type="text" disabled="disabled" class="text_medium" id="disabled_input" name="disabled_input" value="You cannot edit this text." />  
+               
+                </fieldset>
+                <!-- // Text Input Examples -->
+                
+
+				<!-- Textarea Examples -->
+                <fieldset>  
+				
+                    <legend>Text Area Examples</legend>  
+	
+					<!-- Basic Textarea -->
+                    <label for="textarea1">TextArea Example:</label>
+					<textarea name="textarea1" id="textarea1" class="textarea"></textarea>
+                   
+					<!-- Short Textarea -->
+                    <label for="textarea2">TextArea Short Example:</label>
+					<textarea name="textarea2" id="textarea2" class="textarea_short"></textarea>
+                   
+					<!-- Disabled Textarea -->
+                    <label for="textarea3">TextArea Disabled Example:</label>
+					<textarea name="textarea3" id="textarea3" class="textarea" disabled="disabled" >You cannot edit this text.</textarea>
+                
+				</fieldset>
+				<!-- // Textarea Examples -->
+				
+                
+				<!-- Other Element Examples -->
+                <fieldset>  
+				
+                    <legend>Other Form Elements</legend>  
+                 
+						<!-- Normal Select -->
+                        <label for="select1">Select Dropdown:</label>
+                        <select class="dropdown" id="select1" name="select1">
+                            <option value="Two">Option One</option>
+                            <option value="Four">Option Two</option>
+                            <option value="Six">Option Three</option>
+                            <option value="Eight">Option Four</option>
+                            <option value="Ten">Option Five</option>
+                        </select> 
+						<!-- // Normal Select -->
+
+						<!-- Disabled Select -->
+                        <label for="select2">Disabled Select Dropdown:</label>
+                        <select class="dropdown" disabled="disabled" id="select2" name="select2">
+                            <option value="Two">Option One</option>
+                            <option value="Four">Option Two</option>
+                            <option selected="selected" value="Six">You cannot change this.</option>
+                            <option value="Eight">Option Four</option>
+                            <option value="Ten">Option Five</option>
+                        </select>  
+						<!-- // Disabled Select -->
+
+
+						<!-- CheckBox Examples -->
+	                    <div class="label">Some Checkboxes:</div>
+	                    <label class="inline">
+							<!-- Checked Checkbox -->
+	                    	<input type="checkbox" class="checkbox" name="checkbox1" checked="checked" value="1" />
+	                    	 Checked
+	                    </label>
+	                    <label class="inline">
+							<!-- Un-Checked Checkbox -->
+	                    	<input type="checkbox" class="checkbox" name="checkbox1" value="2" /> 
+	                    	Un-Checked 
+	                    </label>
+	                    <label class="inline">
+							<!-- Disabled Checked Checkbox -->
+	                    	<input type="checkbox" class="checkbox" name="checkbox2" checked="checked" disabled="disabled" value="3" /> 
+	                    	Disabled Checked
+	                    </label>
+	                    <label class="inline">
+							<!-- Disabled Un-Checked Checkbox -->
+	                    	<input type="checkbox" class="checkbox" name="checkbox3" disabled="disabled" value="3" /> 
+	                    	Disabled Un-Checked
+	                    </label>
+						<!-- // CheckBox Examples -->
+
+
+						<!-- Radio Examples -->
+						<div class="label">Some Radios:</div>
+						<label class="inline">
+							<!-- Selected Radio -->
+							<input type="radio" class="radio" name="radio1" checked="checked" value="1" />
+							 Selected 
+						</label>
+						<label class="inline">
+							<!-- Un-Selected Radio -->
+							<input type="radio" class="radio" name="radio1" value="2" /> 
+							Un-Selected
+						</label>
+						<label class="inline">
+							<!-- Disabled Selected Radio -->
+							<input type="radio" class="radio" name="radio2" checked="checked" disabled="disabled" value="3" />Disabled Selected 
+						</label>
+						<label class="inline">
+							<!-- Disabled Un-Selected Radio -->
+							<input type="radio" class="radio" name="radio3" disabled="disabled" value="3" />Disabled Un-Selected
+						</label>
+						<!-- // Radio Examples -->
+
+				</fieldset>  
+				<!-- // Other Element Examples -->
+
+
+                <br/>
+
+				<!-- Button Examples -->
+                <div class="label">Input types submit/reset with 'button' class:</div>
+                
+                <input type="submit" value="Send" class="submit button" name="" />
+                <input type="reset" value="Reset" class="reset button" name="" />
+                
+                <br/>
+                <br/>
+                <div class="label">Button element with 'button' class:</div>
+                
+                <button class="button">A Button with text</button>
+				<!-- //Button Examples -->
+
+
+            </form>
+            <!-- // Form End -->
+
+		</div>
+	<!-- // Form Examples
+    ================================================== -->	
+
+
+
+	<!-- Copyright / Social Section
+    ================================================== -->			
+		<div class="container clearfix" id="copyright">
+		
+			&copy; 2011 The Classique Cafe - 2357 S. River Street Detroit, MI 60640 
+			
+			<!-- Social Links -->
+			<ul>
+				<li><a id="copyright_feed" href="#"></a></li>
+				<li><a id="copyright_linkedin" href="#"></a></li>
+				<li><a id="copyright_facebook" href="#"></a></li>
+				<li><a id="copyright_twitter" href="#"></a></li>
+			</ul>
+			<!-- // Social Links -->     
+		
+		</div>
+	<!-- // Copyright / Social Section
+    ================================================== -->		
+		
+		</div>
+	</body>
+	
+</html>

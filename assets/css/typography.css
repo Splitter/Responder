@@ -1,0 +1,222 @@
+
+/***********************/
+/*     Font Imports    */
+/***********************/
+@font-face {
+    font-family: 'ThemeFontBold';
+    src: url('../fonts/AurulentSans-Bold-webfont.eot');
+    src: url('../fonts/AurulentSans-Bold-webfont.eot?iefix') format('eot'),
+         url('../fonts/AurulentSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/AurulentSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/AurulentSans-Bold-webfont.svg#webfontik3ET1p7') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ThemeFont';
+    src: url('../fonts/AurulentSans-Regular-webfont.eot');
+    src: url('../fonts/AurulentSans-Regular-webfont.eot?iefix') format('eot'),
+         url('../fonts/AurulentSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/AurulentSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/AurulentSans-Regular-webfont.svg#webfont18nXzLYS') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ThemeFontItalic';
+    src: url('../fonts/AurulentSans-Italic-webfont.eot');
+    src: url('../fonts/AurulentSans-Italic-webfont.eot?iefix') format('eot'),
+         url('../fonts/AurulentSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/AurulentSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/AurulentSans-Italic-webfont.svg#webfontjDtVmWpR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--//Font Imports --*/
+
+/*-----------------------------------------------------------*/
+
+
+/*****************************/
+/*     General Typography    */
+/*****************************/
+a:link ,
+a:visited,
+a:active{
+	font-family: 'ThemeFont', Arial, “Helvetica Neue”, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000;
+}
+
+a:hover{
+	color: #888;
+}
+
+p a:link ,
+p a:visited,
+p a:active{
+	color: #000;
+	font-family: 'ThemeFontBold', Arial, “Helvetica Neue”, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+p a:hover{
+	color: #888;
+}
+
+
+body {
+	font: 15px/1.5em 'ThemeFont', Arial, “Helvetica Neue”, Helvetica, sans-serif;
+	color: #444;
+}
+
+h1,h2, 
+h3,h4, 
+h5,h6,
+h1 a,h2 a, 
+h3 a,h4 a, 
+h5 a,h6 a{
+	padding:0;
+	margin:0;
+	margin-bottom: 15px;
+	color:#000;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.45em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+h5,
+h6{
+	font-size: 1.1em;
+}
+
+.small, small {
+	font-size: 0.6em;
+	line-height:0.8em;
+	color:#888;
+}
+p .small, p small {
+	font-size: 0.7em;
+	line-height:0.8em;
+	color:#888;
+}
+.medium {
+	font-size:1.6em;
+	line-height:0.8em;
+}
+.large {
+	font-size: 2.4em;
+	line-height:0.8em;
+}
+
+.bold, b, strong{
+	font-family: 'ThemeFontBold', Arial, “Helvetica Neue”, Helvetica, sans-serif;
+	font-weight: bold !important;	
+	font-size:1.1em;
+}
+
+.italic, i, em{
+	font-family: 'ThemeFontItalic', Arial, “Helvetica Neue”, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:1.1em;
+}
+
+
+.dropcap:first-letter {        
+	font-size: 340%;     
+	margin: 8px 5px 0px 0px;
+	float: left;
+	width: 1em; 
+} 
+
+.dropcap2:first-letter {     
+	background:url(../images/dropcapbg.png) top left no-repeat;
+	font-size: 24px;     
+	margin: 0px 5px 0px 0px;
+	padding:13px;
+	float: left;
+	width:0em; 
+	height:0em;
+	line-height:0;
+	color:#fff;
+}
+
+blockquote,
+blockquote p{
+	font-family: 'ThemeFontItalic', Arial, “Helvetica Neue”, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:16px;
+	line-height:1.6em;
+	color:#777;
+}
+
+
+/*--//General Typography --*/
+
+/*-----------------------------------------------------------*/
+
+
+/********************************************/
+/********************************************/
+/*******  Tablet Layout: 769px-960px    *****/
+/********************************************/
+/********************************************/
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+	
+	/*****************************/
+	/*     General Typography    */
+	/*****************************/
+	body {
+		font-size: 12px;
+	}
+	/*--//General Typography --*/
+	
+}
+/*--//Tablet Layout: 769px-960px --*/	
+
+
+
+/*-----------------------------------------------------------*/
+
+
+
+/*************************************************/
+/*************************************************/
+/****    Mobile/Small Tablet : 320px-768px    ****/
+/*************************************************/
+/*************************************************/
+@media only screen and (max-width: 768px) {
+
+	/*****************************/
+	/*     General Typography    */
+	/*****************************/
+	body {
+		font-size: 11px;
+	}
+	/*--//General Typography --*/
+	
+}
+/*--//Mobile/Small Tablet : 320px-768px --*/
+
+
+
+/*-----------------------------------------------------------*/
+
+
+
+
+
+
